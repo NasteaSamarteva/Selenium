@@ -6,8 +6,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 
-import java.sql.SQLOutput;
-
 public class SeleniumLesson52 {
     public static void main(String[] args) {
         System.setProperty("chromedriver.exe", "C:\\Users\\Nastya\\chromeDriver");
