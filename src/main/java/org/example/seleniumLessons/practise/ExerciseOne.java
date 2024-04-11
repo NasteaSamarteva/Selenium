@@ -1,4 +1,4 @@
-package org.example.seleniumLessons;
+package org.example.seleniumLessons.practise;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -30,7 +30,6 @@ public class ExerciseOne {
         driver.findElement(By.id("terms")).click();
         driver.findElement(By.id("signInBtn")).click();
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("button.btn-info")));
-
         List<WebElement> elements = driver.findElements(By.cssSelector("button.btn-info"));
 
         elements.forEach(element -> element.click());
